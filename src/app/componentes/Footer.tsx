@@ -12,9 +12,7 @@ export const Footer = ()=>{
      <ul className="nav col-md-8 justify-content-end">
      <li className="nav-item"><Link to="/inicio" className="nav-link">Inicio</Link></li>
      <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
-     <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
-     <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
-     <li className="nav-item"><Link to="/servicio" className="nav-link">Servicios</Link></li>
+     <li className="nav-item"><Link to="/vendedor" className="nav-link">Vendedores</Link></li>
      <div className="">
      <li className="nav-item dropdown">
                 <a
@@ -24,7 +22,7 @@ export const Footer = ()=>{
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Vendedores
+                  Servicios
                 </a>
                 <ul className="dropdown-menu">
               

@@ -30,7 +30,7 @@ export const Cabecera = () => {
               <Link to="/nosotros" className="nav-link">Nosotros</Link>
               </li>
               <li className="nav-item">
-               <Link to="/servicio" className="nav-link">Servicios</Link>
+               <Link to="/vendedor" className="nav-link">Vendedores</Link>
               </li>
               <li className="nav-item dropdown ">
                 <a
@@ -40,7 +40,7 @@ export const Cabecera = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Vendedores
+                  Servicios
                 </a>
                 <ul className="dropdown-menu">
               
