@@ -5,6 +5,30 @@
 		}
 	],
 	"settings": {
-		"workbench.colorTheme": "Monokai"
+		"workbench.colorTheme": "Monokai",
+		"restoreTerminals.terminals": [
+			{
+			  "splitTerminals": [
+				{
+				  "name": "start",
+				  "commands": ["cls"],
+				  "color": "blue"
+				},
+				{
+				  "name": "git",
+				  "commands": ["cls"],
+				  "color": "blue"
+				}
+			  ]
+			},
+			{
+			  "splitTerminals": [
+				{
+				  "name": "cmd",
+				  "commands": ["cls"],
+				}
+			  ]
+			}
+		  ]
 	}
 }
