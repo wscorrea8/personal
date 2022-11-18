@@ -1,5 +1,5 @@
-import vendedor1 from "../../assets/images/vendedor-2.png";
-import vendedor2 from "../../assets/images/vendedor-5.png";
+import vendedor1 from "../../assets/image/vendedor-2.png";
+import vendedor2 from "../../assets/image/vendedor-5.png";
 export const Vendedores = () => {
   return (
     <div className="container mt-5">

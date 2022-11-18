@@ -1,4 +1,4 @@
-import nosotros from "../../assets/images/teamwork.jpg";
+import nosotros from "../../assets/image/teamwork.jpg";
 export const Nosotros = () => {
   return (
     <div className="container mt-5">

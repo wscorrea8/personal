@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export const Cabecera = () => {
   return (
-    <div className="container mt-4">
+    <div className="mt-4">
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div className="container-fluid">
+        <div className="container m-lg-2">
           <a className="navbar-brand" href="#">
             Risaltex S.A.
           </a>
@@ -48,7 +48,7 @@ export const Cabecera = () => {
                    <Link to="/reclamo" className="dropdown-item">Reclamos</Link>
                   </li>
                   <li>
-                  <Link to="/ficha_tecnica" className="dropdown-item">Ficha Tecnica</Link>
+                  <Link to="/ficha_tecnica" className="dropdown-item">Ficha Técnica</Link>
                   </li>
                 </ul>
               </li>

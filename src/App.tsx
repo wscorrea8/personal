@@ -1,9 +1,8 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import { Cabecera } from './app/contenedores/Cabecera';
+import { Cabecera } from './app/componentes/Cabecera';
 import { Ruteo } from './app/utilidades/rutas/Ruteo';
-import { Footer } from './app/contenedores/Footer';
-
+import { Footer } from './app/componentes/Footer';
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       <Cabecera/>
       <Ruteo/>
       <Footer/>
-    </BrowserRouter>
-
+      </BrowserRouter>
     </div>
   );
 }

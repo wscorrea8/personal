@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import { Acceso } from "../../vistas/publicas/Acceso";
-import { FichaTecnica } from "../../contenedores/FichaTecnica";
-import { Nosotros } from "../../contenedores/Nosotros";
-import { Reclamos } from "../../contenedores/Reclamos";
-import { Vendedores } from "../../contenedores/Vendedores";
-import { Inicio } from "../../contenedores/Inicio";
+import { FichaTecnica } from "../../componentes/FichaTecnica";
+import { Nosotros } from "../../componentes/Nosotros";
+import { Reclamos } from "../../componentes/Reclamos";
+import { Vendedores } from "../../componentes/Vendedores";
+import { Inicio } from "../../componentes/Inicio";
 
 
 export const Ruteo = ()=>{
