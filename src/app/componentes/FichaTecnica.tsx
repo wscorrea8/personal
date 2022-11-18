@@ -4,14 +4,14 @@ import tela3 from "../../assets/image/tela_hippie_lycra.jpg";
 
 export const FichaTecnica = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-2">
       <div className="d-flex-md-fill  justify-content-center">
         <div className="album py-5 bg-light">
           <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">
                 <div className="card shadow-sm">
-                  <img src={tela1} alt="tela_reef_lycra" width={350}/>
+                  <img src={tela1} alt="tela_reef_lycra" width="100%" height="100%"/>
 
                   <div className="card-body">
                     <p className="card-text mt-3">
@@ -44,7 +44,7 @@ export const FichaTecnica = () => {
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                  <img src={tela2} alt="High Performance Spandex" />
+                  <img src={tela2} alt="High Performance Spandex" width="100%" height="100%"/>
 
                   <div className="card-body">
                     <p className="card-text mt-3">
@@ -75,7 +75,7 @@ export const FichaTecnica = () => {
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                  <img src={tela3} alt="Hippie Lycra" width={355}/>
+                  <img src={tela3} alt="Hippie Lycra" height={230}/>
 
                   <div className="card-body">
                     <p className="card-text mt-3" >

@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 
 export const Cabecera = () => {
   return (
-    <div className="mt-4">
+    <header>
+    <div>
+     
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container m-lg-2">
           <a className="navbar-brand" href="#">
@@ -32,6 +34,9 @@ export const Cabecera = () => {
               <li className="nav-item">
                <Link to="/vendedor" className="nav-link">Vendedores</Link>
               </li>
+              <li className="nav-item">
+               <Link to="/oferta" className="nav-link">Ofertas</Link>
+              </li>
               <li className="nav-item dropdown ">
                 <a
                   className="nav-link dropdown-toggle"
@@ -60,5 +65,6 @@ export const Cabecera = () => {
         </div>
       </nav>
     </div>
+</header>
   );
 };

@@ -20,7 +20,7 @@ export const Nosotros = () => {
           </p>
         </div>
         <div className="col-md-5">
-       <img src={nosotros} alt="Acerca de Risaltex S.A." />
+       <img src={nosotros} alt="Acerca de Risaltex S.A." width="100%" height="100%"/>
         </div>
       </div>
     </div>

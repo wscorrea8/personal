@@ -18,6 +18,7 @@ export const Inicio = () => {
 
          {/* Carousel: Inicio */}
         {/* *************************************************************** */}
+        <section>
         <div id="myCarousel" className="carousel slide mt-3" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button
@@ -52,7 +53,7 @@ export const Inicio = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={fondo01} alt="" />
+              <img src={fondo01} alt="Not Picture " width="100%" height="100%"/>
               <div className="container">
                 <div className="carousel-caption">
                   <h1>Nuestras Telas</h1>
@@ -67,7 +68,7 @@ export const Inicio = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={fondo02} alt="" />
+              <img src={fondo02} alt="Not Picture " width="100%" height="100%"/>
               <div className="container">
                 <div className="carousel-caption text-end">
                   <h1>Alta calidad </h1>
@@ -82,7 +83,7 @@ export const Inicio = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={fondo03} alt="" />
+              <img src={fondo03} alt="Not Picture " width="100%" height="100%" />
               <div className="container">
                 <div className="carousel-caption text-start">
                   <h1>Innovación</h1>
@@ -97,7 +98,7 @@ export const Inicio = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={fondo04} alt="" />
+              <img src={fondo04} alt="Not Picture " width="100%" height="100%" />
               <div className="container">
                 <div className="carousel-caption text-start">
                   <h1>Meteriales biodegradables</h1>
@@ -137,6 +138,7 @@ export const Inicio = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
+    </section>
         {/* *************************************************************** */}
         {/* Carousel: Fin */}
        <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">

@@ -13,6 +13,7 @@ export const Footer = ()=>{
      <li className="nav-item"><Link to="/inicio" className="nav-link">Inicio</Link></li>
      <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
      <li className="nav-item"><Link to="/vendedor" className="nav-link">Vendedores</Link></li>
+     <li className="nav-item"><Link to="/oferta" className="nav-link">Ofertas</Link></li>
      <div>
      <li className="nav-item dropdown">
                 <a
