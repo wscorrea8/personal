@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 export function Reclamos() {
   return (
     <Form>
-      <div className="mt-5">
+      <div className="container mt-5">
         <Form.Group className="mb-3">
         <Form.Label htmlFor="disabledTextInput">Id Vendedor</Form.Label>
         <Form.Control id="disabledTextInput" placeholder="Ingrese código de vendedor" />
