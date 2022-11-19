@@ -13,7 +13,7 @@ import rollos from "../../assets/image/rolloshilos.jpg";
 
 export const Inicio = () => {
   return (
-    <div className="container px-1 py-1" id="custom-cards">
+    <div className="container px-1 py-1 " id="custom-cards">
       <main>
 
          {/* Carousel: Inicio */}

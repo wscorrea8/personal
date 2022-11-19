@@ -6,7 +6,7 @@ import { Footer } from './app/componentes/Footer';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='Toastify__toast-container--bottom-center'>
       <BrowserRouter>
       <Cabecera/>
       <Ruteo/>
